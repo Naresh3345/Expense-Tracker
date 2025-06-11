@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Naresh's</h1>
+    <h1>Expense Tracker</h1>
+
+    <div class="input-section">
+      <input type="text" id="title" placeholder="Expense Title" />
+      <input type="number" id="amount" placeholder="Amount" />
+      <input type="date" id="date" />
+      <button id="addBtn">Add Expense</button>
+    </div>
+
+    <div id="expense-list" class="expense-list"></div>
+
+    <div class="total">
+      Total: ₹<span id="totalAmount">0</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
